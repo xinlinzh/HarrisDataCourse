@@ -66,7 +66,10 @@ In the first regression, *Inno* has a coefficient of 0.38 with a strong statisti
 
 *highedu* has a coefficient of 0.06 with a strong statistical significance. In accordance with the assumption at the beginning, the higher educated a country’s population is, the better performance it has on SDGs achievement
 
-Even though not statistically significant, *econfdm*, *import* and *export* all have a negative coefficient, while *easebus* has a positive coefficient. Whereas if not taking other variables into account, both *econfdm* and *easebus* have a positive correlation with Sustainability Index, as shown in the scatter plot [Plot 1]. This might imply that even though an open economy might be beneficial in facilitating a country’s sustainability progress, it might also induce irresponsible activities of both domestic and international business if without good regulation. This results in a stagnating progress on sustainability.
+Even though not statistically significant, *econfdm*, *import* and *export* all have a negative coefficient, while *easebus* has a positive coefficient. Whereas if not taking other variables into account, both *econfdm* and *easebus* have a positive correlation with Sustainability Index, as shown in the scatter plot. This might imply that even though an open economy might be beneficial in facilitating a country’s sustainability progress, it might also induce irresponsible activities of both domestic and international business if without good regulation. This results in a stagnating progress on sustainability.
+
+![scatter plot] 
+(https://github.com/xinlinzh/HarrisDataCourse/blob/main/GdpPop_Scatter.png)
 
 After dropping several insignificant independent variables, the fifth regression contains only the constant (53.24), *gdp* (-0.46), *Inno* (-0.42), *PopChange* (-2.43) and *highedu* (0.07), with corresponding coefficient in the parenthesis.
 
