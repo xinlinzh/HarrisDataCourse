@@ -56,7 +56,9 @@ After merging and cleaning, the final master dataset contains data for 106 count
 
 This study uses the classical OLS model to explore the relationship between Sustainability Index and *gdp*, *import*, *export*, *PopChange*, *econfdm*, *easebus*, *Inno* and *highedu*. 
 
-The first regression includes all the independent variables. The result has a 0.86 R-square and four statistically significant variables, including the constant. *easebus*, *econfdm*, *import* and *export* bare little statistical significance. Several additional regressions were conducted with gradually reduced independent variables. The results show that among the independent variables, *PopChange*, *Inno*, *gdp* and *highedu* keep the most statistical significance and their signs correspond with theoretical logic [Table 1]. 
+The first regression includes all the independent variables. The result has a 0.86 R-square and four statistically significant variables, including the constant. *easebus*, *econfdm*, *import* and *export* bare little statistical significance. Several additional regressions were conducted with gradually reduced independent variables. The results show that among the independent variables, *PopChange*, *Inno*, *gdp* and *highedu* keep the most statistical significance and their signs correspond with theoretical logic.
+
+![](Multireg Table.png)
 
 In the first regression, *Inno* has a coefficient of 0.38 with a strong statistical significance. This implies that the higher a country’s innovation score is, the better progress the country is making towards SDGs.  
 
@@ -68,8 +70,9 @@ In the first regression, *Inno* has a coefficient of 0.38 with a strong statisti
 
 Even though not statistically significant, *econfdm*, *import* and *export* all have a negative coefficient, while *easebus* has a positive coefficient. Whereas if not taking other variables into account, both *econfdm* and *easebus* have a positive correlation with Sustainability Index, as shown in the scatter plot. This might imply that even though an open economy might be beneficial in facilitating a country’s sustainability progress, it might also induce irresponsible activities of both domestic and international business if without good regulation. This results in a stagnating progress on sustainability.
 
-![scatter plot] 
-(https://github.com/xinlinzh/HarrisDataCourse/blob/main/GdpPop_Scatter.png)
+![Highedu corr](InnoHighEdu_Scatter.png)
+![](InsigVars_Scatter.png)
+![](GdpPop_Scatter.png)
 
 After dropping several insignificant independent variables, the fifth regression contains only the constant (53.24), *gdp* (-0.46), *Inno* (-0.42), *PopChange* (-2.43) and *highedu* (0.07), with corresponding coefficient in the parenthesis.
 
