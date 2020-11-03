@@ -58,7 +58,7 @@ This study uses the classical OLS model to explore the relationship between Sust
 
 The first regression includes all the independent variables. The result has a 0.86 R-square and four statistically significant variables, including the constant. *easebus*, *econfdm*, *import* and *export* bare little statistical significance. Several additional regressions were conducted with gradually reduced independent variables. The results show that among the independent variables, *PopChange*, *Inno*, *gdp* and *highedu* keep the most statistical significance and their signs correspond with theoretical logic.
 
-![](Multireg Table.png)
+![table](Multireg_Table.png)
 
 In the first regression, *Inno* has a coefficient of 0.38 with a strong statistical significance. This implies that the higher a country’s innovation score is, the better progress the country is making towards SDGs.  
 
